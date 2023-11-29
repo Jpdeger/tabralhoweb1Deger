@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://wallpapers.com/images/hd/pokemon-background-17x8jxp3vmf1tef0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.game-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.word-container {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+#start-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+#start-button:hover {
+  background-color: #45a049;
+}
+
+#palavra-input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#mensagem {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#palavra-atual {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#time, #pontuacao {
+  font-size: 20px;
+  font-weight: bold;
+  color: #35424a;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+}
