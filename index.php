@@ -3,7 +3,6 @@ session_start();
 include("connectdb.php");
 include("funcoes.php");
 
-// Verifica se o usuário está autenticado
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     die();
