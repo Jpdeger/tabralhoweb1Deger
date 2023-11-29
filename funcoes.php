@@ -18,7 +18,6 @@ function check_login($con)
 		}
 	}
 
-	//redirect to login
 	header("Location: login.php");
 	die;
 
@@ -36,7 +35,7 @@ function numeroRandom($length)
 	$len = rand(4,$length);
 
 	for ($i=0; $i < $len; $i++) { 
-		# code...
+
 
 		$text .= rand(0,9);
 	}
