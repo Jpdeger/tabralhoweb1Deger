@@ -23,10 +23,10 @@ include("funcoes.php");
             </tr>
 
             <?php
-            // Obtém os dados do usuário autenticado
+
             $user_data = check_login($con);
 
-            // Obtém os dados do ranking
+
             $query = "SELECT user_name, pontuacao_total FROM users ORDER BY pontuacao_total DESC";
             $result = mysqli_query($con, $query);
 
